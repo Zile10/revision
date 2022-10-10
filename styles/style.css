@@ -1,12 +1,66 @@
-canvas {
-  border: 1px solid black;
-}
-table {
-  border: 2px solid black;
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-image: url('https://i.postimg.cc/1RpyhQT6/jiyuu-no-tsubasa.png');
+  background-size: cover;
   color: white;
+  font-family: sans-serif;
 }
 
+header {
+  /* position: fixed; */
+  width: 100%;
+  background-color: #222;
+  top: 0;
+  display: inline-flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  z-index: 50;
+}
+
+header img {
+  filter: invert(100%);
+  width: 5em;
+  padding: 5px;
+}
+
+/* menu */
+
+/* menu-list */
+.menu-list {
+  display: inline-flex;
+  list-style: none;
+}
+
+.menu-list li {
+  margin: 0 10px;
+}
+
+.menu-list li a {
+  color:wheat;
+  padding: 5px;
+  text-decoration: none;
+}
+.menu-list li a:hover {
+  color: black;
+  background-color: #fff;
+}
+
+
+
+table {
+  border: 3px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  border: 2px solid white;
+}
+
+footer p {
+  font-weight: bold;
+}
