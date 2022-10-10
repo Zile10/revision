@@ -2,14 +2,11 @@ canvas {
   border: 1px solid black;
 }
 table {
-  border: 1px solid black;
-}
-table tr {
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
-/* body {
+body {
   background-image: url('https://i.postimg.cc/1RpyhQT6/jiyuu-no-tsubasa.png');
   color: white;
 }
- */
+
