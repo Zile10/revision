@@ -64,3 +64,11 @@ th, td {
 footer p {
   font-weight: bold;
 }
+
+.phone {
+  margin: 30px;
+}
+
+.phone ul li:first-child, .phone ul li:last-child {
+  color: aqua;
+}
